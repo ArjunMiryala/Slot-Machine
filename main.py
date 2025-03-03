@@ -11,4 +11,8 @@ def deposit():                                  # defining a function for user d
             print("please deposit valid amount")
     return amount                              #return the amount
 
-balance = deposit()
+
+def main():
+    balance = deposit()
+
+main()
